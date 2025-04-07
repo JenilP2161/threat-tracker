@@ -1,7 +1,7 @@
 
-# 🛡️ Malware Tracker
+# 🛡️ Threat Tracker
 
-A full-stack malware tracking application built with **Next.js**, providing real-time data from a public API with filtering, sorting, and pagination.
+A full-stack threat tracking application built with **Next.js**, providing real-time data from a public API with filtering, sorting, and pagination.
 
 ---
 
@@ -16,8 +16,8 @@ Make sure you have **Node.js** installed. You can install it from [https://nodej
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/JenilP2161/malware-tracker.git
-cd malware-tracker
+git clone https://github.com/JenilP2161/theat-tracker.git
+cd threat-tracker
 npm install
 ```
 
@@ -50,7 +50,7 @@ Then open [http://localhost:3000](http://localhost:3000) in your browser to see 
 
 ### 🔹 Backend (API Routes)
 
--   `/api/threats`: Server-side proxy to fetch threat data from a public malware URL API (e.g., abuse.ch)
+-   `/api/threats`: Server-side proxy to fetch threat data from a public threat URL API (e.g., abuse.ch)
     
 -   Supports query params for:
     
@@ -87,8 +87,8 @@ index.tsx           → Main page with all logic (filtering, error handling, fet
 ## ✨ Features
 
 - 🔐 **Rate limiting** with IP tracking to prevent abuse
-- 📄 **Paginated, filterable, and sortable** malware data table
-- ⚙️ **Backend proxy** to fetch data from a public malware API
+- 📄 **Paginated, filterable, and sortable** threat data table
+- ⚙️ **Backend proxy** to fetch data from a public threat API
 - 🧼 **Input sanitization** on the backend to prevent malformed or harmful query parameters
 - 🧠 **Caching mechanism** to reduce redundant API calls and improve performance
 - 🎨 **Styled with Tailwind CSS** for a modern and responsive UI

@@ -3,7 +3,7 @@
 const ipRequestCounts = new Map<string, { count: number; lastRequestTime: number }>();
 
 const WINDOW_SIZE_IN_SECONDS = 60;
-const MAX_REQUESTS = 10;
+const MAX_REQUESTS = 40;
 
 export function rateLimit(ip: string): boolean {
   const now = Date.now();

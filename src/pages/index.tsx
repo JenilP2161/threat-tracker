@@ -78,7 +78,7 @@ export default function Home() {
   return (
     <div className="bg-black text-white min-h-screen px-4 py-6 md:px-8">
       <h1 className="text-3xl md:text-5xl font-bold mb-6 text-blue-400 tracking-tight">
-        🛡️ Malware Tracker
+        🛡️ Threat Tracker
       </h1>
 
       {/* Filter + Sorting Controls */}
