@@ -16,7 +16,7 @@ Make sure you have **Node.js** installed. You can install it from [https://nodej
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/JenilP2161/theat-tracker.git
+git clone https://github.com/JenilP2161/threat-tracker.git
 cd threat-tracker
 npm install
 ```
